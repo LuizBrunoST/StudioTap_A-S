@@ -5,10 +5,10 @@ plugins {
 android {
     signingConfigs {
         create("release") {
-            storeFile = file("keystore/my-release-key.jks")
-            storePassword = "Luiz@tatiele"
-            keyAlias = "my-key-alias"
-            keyPassword = "Luiz@tatiele"
+            storeFile = file("")
+            storePassword = ""
+            keyAlias = ""
+            keyPassword = ""
         }
     }
 
